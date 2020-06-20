@@ -445,8 +445,8 @@ table {
 	width: 100%;
 }
 
+@import 'wordpress';
 
 @import 'base';
-@import 'wordpress';
 @import './components/buttons';
 @import './components/navbar';
