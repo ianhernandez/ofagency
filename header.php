@@ -44,38 +44,7 @@
 </svg>
 
   </div>
-  <nav class="nav">
-    
-    <a href="#">Our Models</a>
-    <a href="#">Blog</a>
-    <a href="#">Tools</a>
-    <a href="#">Courses</a>
-    <a href="#">Free Guide</a>
-    <a href="#" class="button">Apply</a>
-  </nav>
-</header>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$ofagency_description = get_bloginfo( 'description', 'display' );
-			if ( $ofagency_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $ofagency_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
+	<nav id="site-navigation" class="main-navigation nav">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ofagency' ); ?></button>
 			<?php
 			wp_nav_menu(
@@ -86,4 +55,12 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+</header>
+
+	<header id="masthead" class="site-header">
+		<div class="site-branding">
+
+		</div><!-- .site-branding -->
+
+	
 	</header><!-- #masthead -->
