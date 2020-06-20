@@ -1,0 +1,35 @@
+.header {
+  padding: 2.5vw 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (min-width: $breakpoint-large) {
+    padding: 5vw 5vw 0;
+  }
+}
+
+.logo {
+  line-height: 1;
+  svg {
+    max-width: 30rem;
+    height: auto;
+  }
+  path {
+    fill: #aaa;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  @media (min-width: $breakpoint-large) {
+    font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+  }
+  
+  a + a {
+    margin-left: 2rem;
+    @media (min-width: $breakpoint-large) {
+     margin-left: clamp(1rem, 3vw, 3rem);
+    }
+  }
+}
