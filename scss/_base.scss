@@ -74,4 +74,5 @@ h3 {
 .main-wrapper {
   display: grid;
   grid-template-columns: 1fr 20rem;
+  padding: 0 $site-padding;
 }
