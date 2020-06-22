@@ -15,6 +15,7 @@
   a {
     &:focus {
       background-color: transparent;
+      outline: 0 none;
     }
   }
   svg {
