@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Full Width Page
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -14,28 +15,24 @@
 
 get_header();
 ?>
-<div class="main-wrapper">
-	<main id="primary" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+<main id="primary" class="site-main">
 
-			get_template_part( 'template-parts/content', 'page' );
+	<?php
+	while ( have_posts() ) :
+		the_post();
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+		get_template_part( 'template-parts/content', 'page' );
 
-		endwhile; // End of the loop.
-		?>
+		// If comments are open or we have at least one comment, load up the comment template.
+		if ( comments_open() || get_comments_number() ) :
+			comments_template();
+		endif;
 
-	</main><!-- #main -->
+	endwhile; // End of the loop.
+	?>
 
-<?php
-get_sidebar();
-?>
-</div>
+</main><!-- #main -->
+
 <?php
 get_footer();
