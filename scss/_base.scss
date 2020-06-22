@@ -78,3 +78,7 @@ h3 {
     grid-template-columns: 1fr 20rem;
   }
 }
+
+.main-wrapper--fullWidth {
+  padding: 0 $site-padding;
+}

@@ -421,6 +421,10 @@ h3 {
 	}
 }
 
+.main-wrapper--fullWidth {
+	padding: 0 2.5vw;
+}
+
 .button {
 	background-color: var(--brand);
 	color: #fff;
