@@ -15,6 +15,7 @@
 get_header();
 ?>
 
+<div class="main-wrapper">
 	<main id="primary" class="site-main main-front-page">
 	
 			<?php 
@@ -62,4 +63,9 @@ get_header();
 
 <?php
 get_sidebar();
+?>
+
+
+
+<?php
 get_footer();

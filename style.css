@@ -410,6 +410,11 @@ h3 {
 	line-height: 1.5;
 }
 
+.main-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 20rem;
+}
+
 .button {
 	background-color: var(--brand);
 	color: #fff;
