@@ -86,7 +86,6 @@ dd {
 
 /* Set core body defaults */
 body {
-	min-height: 100vh;
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
 }
