@@ -460,6 +460,7 @@ h3 {
 
 @media (min-width: 1200px) {
 	.header {
+		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
 		padding: 2.5vw 2.5vw 0;
