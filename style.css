@@ -485,7 +485,7 @@ h3 {
 	flex-direction: column;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
 	.header {
 		flex-direction: row;
 		align-items: center;
@@ -500,7 +500,7 @@ h3 {
 
 .logo svg {
 	width: 100%;
-	max-width: 30rem;
+	max-width: 20rem;
 	height: auto;
 }
 
