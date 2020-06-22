@@ -15,12 +15,15 @@
 get_header();
 ?>
 
-
-
-
 <main>
   <section class="intro">
-    <h1>A Modern Digital Model Agency</h1>
+    <h1><?php 
+			$ofagency_description = get_bloginfo( 'description', 'display' );
+			if ( $ofagency_description || is_customize_preview() ) :
+				?>
+				<p class="site-description"><?php echo $ofagency_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+			<?php endif; ?>
+		</h1>
     <p>We empower our partners by providing the right tools, guidance, 
 data & support to build their brand and increase their revenue.</p>
   </section>
@@ -101,14 +104,6 @@ data & support to build their brand and increase their revenue.</p>
 
 <div class="grid-layout--1 container">
 	<main id="primary" class="site-main main-front-page">
-	
-			<?php 
-			$ofagency_description = get_bloginfo( 'description', 'display' );
-			if ( $ofagency_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $ofagency_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-
 
 		<?php
 		if ( have_posts() ) :
