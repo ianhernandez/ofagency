@@ -52,7 +52,7 @@
      grid-template-columns: 1fr 1fr;
   }
   img {
-    max-height: 30rem;
+    max-height: 25rem;
     object-fit: cover;
     @media (min-width: $breakpoint-large) {
       width: 100%;
