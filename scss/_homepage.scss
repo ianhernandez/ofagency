@@ -40,7 +40,7 @@
 .secondary {
   display: flex;
   flex-direction: column;
-  @media (min-width: $breakpoint-large) {
+  @media (min-width: $breakpoint-large-plus) {
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto auto;
@@ -55,7 +55,7 @@
     max-height: 25rem;
     object-fit: cover;
     margin-bottom: 3rem;
-    @media (min-width: $breakpoint-large) {
+    @media (min-width: $breakpoint-large-plus) {
       width: 100%;
       max-height: 100vh;
       object-fit: cover;
