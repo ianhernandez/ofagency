@@ -511,6 +511,13 @@ h3 {
 .nav {
 	display: flex;
 	align-items: center;
+	padding-bottom: 2rem;
+}
+
+@media (min-width: 800px) {
+	.nav {
+		padding-bottom: 0;
+	}
 }
 
 @media (min-width: 1200px) {
