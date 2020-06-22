@@ -356,6 +356,38 @@ select {
 	margin-bottom: 1.5rem;
 }
 
+.hidden {
+	display: none;
+}
+
+.block {
+	display: block;
+}
+
+.flow-root {
+	display: flow-root;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+.flex {
+	display: flex;
+}
+
+.inline-flex {
+	display: inline-flex;
+}
+
+.grid {
+	display: inline-flex;
+}
+
 :root {
 	--brand: #D57B7B;
 	--research-padding-top: 10vw;
@@ -774,6 +806,10 @@ i.ring {
 	font-size: 2vw;
 	color: var(--brand);
 	background-color: #b2383822;
+}
+
+.entry-header {
+	margin-top: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
