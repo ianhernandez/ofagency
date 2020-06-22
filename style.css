@@ -411,13 +411,19 @@ h3 {
 }
 
 .main-wrapper {
-	padding: 0 2.5vw;
+	padding: 0 2rem;
 }
 
 @media (min-width: 1000px) {
 	.main-wrapper {
 		display: grid;
 		grid-template-columns: 1fr 20rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.main-wrapper {
+		padding: 0 2.5vw;
 	}
 }
 
@@ -449,12 +455,13 @@ h3 {
 .header {
 	padding: 2.5vw 2rem 0;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-direction: column;
 }
 
 @media (min-width: 1200px) {
 	.header {
+		align-items: center;
+		justify-content: space-between;
 		padding: 2.5vw 2.5vw 0;
 	}
 }

@@ -1,9 +1,10 @@
 .header {
   padding: 2.5vw 2rem 0;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   @media (min-width: $breakpoint-large) {
+    align-items: center;
+    justify-content: space-between;
     padding: $site-padding $site-padding 0;
   }
 }

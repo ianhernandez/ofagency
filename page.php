@@ -15,7 +15,7 @@
 
 get_header();
 ?>
-<div class="main-wrapper main-wrapper--fullWidth">
+<div class="main-wrapper--fullWidth">
 	<main id="primary" class="site-main">
 
 		<?php
