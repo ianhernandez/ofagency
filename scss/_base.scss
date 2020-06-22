@@ -72,20 +72,22 @@ h3 {
 // }
 
 .container {
-  padding: 0 $site-padding;
-}
-
-.main-wrapper {
   padding: 0 2rem;
-  @media (min-width: $breakpoint-medium-plus) {
-    display: grid;
-    grid-template-columns: 1fr 20rem;
-  }
   @media (min-width: $breakpoint-medium-plus) {
     padding: 0 $site-padding;
   }
 }
 
+.main-wrapper {
+  @media (min-width: $breakpoint-medium-plus) {
+    display: grid;
+    grid-template-columns: 1fr 20rem;
+  }
+}
+
 .main-wrapper--fullWidth {
-  padding: 0 $site-padding;
+  @media (min-width: $breakpoint-medium-plus) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

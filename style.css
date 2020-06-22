@@ -410,11 +410,13 @@ h3 {
 }
 
 .container {
-	padding: 0 2.5vw;
+	padding: 0 2rem;
 }
 
-.main-wrapper {
-	padding: 0 2rem;
+@media (min-width: 1000px) {
+	.container {
+		padding: 0 2.5vw;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -425,13 +427,10 @@ h3 {
 }
 
 @media (min-width: 1000px) {
-	.main-wrapper {
-		padding: 0 2.5vw;
+	.main-wrapper--fullWidth {
+		display: grid;
+		grid-template-columns: 1fr;
 	}
-}
-
-.main-wrapper--fullWidth {
-	padding: 0 2.5vw;
 }
 
 .button {
