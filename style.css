@@ -631,6 +631,7 @@ h3 {
 .secondary img {
 	max-height: 25rem;
 	object-fit: cover;
+	margin-bottom: 3rem;
 }
 
 @media (min-width: 1200px) {
@@ -640,6 +641,7 @@ h3 {
 		object-fit: cover;
 		object-position: top center;
 		grid-row: span 2;
+		margin-bottom: 0;
 	}
 }
 
