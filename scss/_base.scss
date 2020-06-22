@@ -71,7 +71,9 @@ h3 {
 // }
 
 .main-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 20rem;
   padding: 0 $site-padding;
+  @media (min-width: $breakpoint-medium) {
+    display: grid;
+    grid-template-columns: 1fr 20rem;
+  }
 }

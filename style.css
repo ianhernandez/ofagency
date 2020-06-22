@@ -411,9 +411,14 @@ h3 {
 }
 
 .main-wrapper {
-	display: grid;
-	grid-template-columns: 1fr 20rem;
 	padding: 0 2.5vw;
+}
+
+@media (min-width: 800px) {
+	.main-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 20rem;
+	}
 }
 
 .button {
