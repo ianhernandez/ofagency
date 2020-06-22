@@ -629,11 +629,18 @@ h3 {
 }
 
 .secondary img {
-	width: 100%;
-	max-height: 100vh;
+	max-height: 30rem;
 	object-fit: cover;
-	object-position: top center;
-	grid-row: span 2;
+}
+
+@media (min-width: 1200px) {
+	.secondary img {
+		width: 100%;
+		max-height: 100vh;
+		object-fit: cover;
+		object-position: top center;
+		grid-row: span 2;
+	}
 }
 
 .block-2 {
