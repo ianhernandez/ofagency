@@ -1,8 +1,8 @@
 
 .intro {
-  padding: 4rem 2rem clamp(2rem, 4vw, 4rem);
+  padding: 1rem 2rem 3rem;
   @media (min-width: $breakpoint-xl) {
-    padding: 4rem 2rem clamp(5rem, 7vw, 10rem);
+    padding: 4rem 2rem 10rem;
   }
   @media (min-width: $breakpoint-large) {
     display: grid;

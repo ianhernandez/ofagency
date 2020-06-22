@@ -12,6 +12,11 @@
 
 .logo {
   line-height: 1;
+  a {
+    &:focus {
+      background-color: transparent;
+    }
+  }
   svg {
     width: 100%;
     max-width: 20rem;

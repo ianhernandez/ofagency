@@ -498,6 +498,10 @@ h3 {
 	line-height: 1;
 }
 
+.logo a:focus {
+	background-color: transparent;
+}
+
 .logo svg {
 	width: 100%;
 	max-width: 20rem;
@@ -551,12 +555,12 @@ h3 {
 }
 
 .intro {
-	padding: 4rem 2rem clamp(2rem, 4vw, 4rem);
+	padding: 1rem 2rem 3rem;
 }
 
 @media (min-width: 1600px) {
 	.intro {
-		padding: 4rem 2rem clamp(5rem, 7vw, 10rem);
+		padding: 4rem 2rem 10rem;
 	}
 }
 
