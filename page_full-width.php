@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Full Width Page
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -14,7 +15,7 @@
 
 get_header();
 ?>
-<div class="grid-layout--1 container">
+<div class="main-wrapper">
 	<main id="primary" class="site-main">
 
 		<?php

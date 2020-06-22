@@ -420,16 +420,9 @@ h3 {
 }
 
 @media (min-width: 1000px) {
-	.main-wrapper {
+	.grid-layout--1 {
 		display: grid;
 		grid-template-columns: 1fr 20rem;
-	}
-}
-
-@media (min-width: 1000px) {
-	.main-wrapper--fullWidth {
-		display: grid;
-		grid-template-columns: 1fr;
 	}
 }
 

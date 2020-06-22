@@ -78,16 +78,9 @@ h3 {
   }
 }
 
-.main-wrapper {
+.grid-layout--1 {
   @media (min-width: $breakpoint-medium-plus) {
     display: grid;
     grid-template-columns: 1fr 20rem;
-  }
-}
-
-.main-wrapper--fullWidth {
-  @media (min-width: $breakpoint-medium-plus) {
-    display: grid;
-    grid-template-columns: 1fr;
   }
 }
