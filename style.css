@@ -409,6 +409,10 @@ h3 {
 	line-height: 1.5;
 }
 
+.container {
+	padding: 0 2.5vw;
+}
+
 .main-wrapper {
 	padding: 0 2rem;
 }

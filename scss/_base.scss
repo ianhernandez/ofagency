@@ -71,6 +71,10 @@ h3 {
 //   line-height: 1.5;
 // }
 
+.container {
+  padding: 0 $site-padding;
+}
+
 .main-wrapper {
   padding: 0 2rem;
   @media (min-width: $breakpoint-medium-plus) {
