@@ -471,6 +471,7 @@ h3 {
 }
 
 .logo svg {
+	width: 100%;
 	max-width: 30rem;
 	height: auto;
 }
@@ -488,6 +489,10 @@ h3 {
 	.nav {
 		font-size: clamp(1.25rem, 1.5vw, 1.5rem);
 	}
+}
+
+.nav a {
+	line-height: 1;
 }
 
 .nav a + a {

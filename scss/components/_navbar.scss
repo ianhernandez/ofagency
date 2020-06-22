@@ -13,6 +13,7 @@
 .logo {
   line-height: 1;
   svg {
+    width: 100%;
     max-width: 30rem;
     height: auto;
   }
@@ -27,6 +28,10 @@
   @media (min-width: $breakpoint-large) {
     font-size: clamp(1.25rem, 1.5vw, 1.5rem);
   }
+
+  a {
+    line-height: 1;
+  }
   
   a + a {
     margin-left: 2rem;
@@ -35,7 +40,6 @@
     }
   }
 }
-
 
 .menu {
 	display: flex;
