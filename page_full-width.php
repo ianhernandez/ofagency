@@ -15,7 +15,7 @@
 
 get_header();
 ?>
-<div class="main-wrapper">
+<div class="container">
 	<main id="primary" class="site-main">
 
 		<?php
@@ -33,10 +33,6 @@ get_header();
 		?>
 
 	</main><!-- #main -->
-
-<?php
-get_sidebar();
-?>
 </div>
 <?php
 get_footer();
