@@ -4,33 +4,33 @@
   @media (min-width: $breakpoint-xl) {
     padding: 4rem 2rem clamp(5rem, 7vw, 10rem);
   }
-  h1 {
-    padding-left: 0;
-    line-height: 1.25;
-    margin: 0;
-    color: var(--brand);
-    margin-bottom: 2rem;;
-  }
-  p {
-    margin:0;
-    margin-bottom: 0rem;
-    align-self: flex-end;
-    max-width: 40em;
-    padding-right: 5vw;
-  }
   @media (min-width: $breakpoint-large) {
     display: grid;
     grid-template-columns: 2fr 3fr;
     padding-left: 0;
     padding-right: 0;
     gap: 5vw;
-     h1 {
-      padding-left: 5vw;
-       margin-bottom: 0;
+  }
+
+  h1 {
+    padding-left: 0;
+    line-height: 1.25;
+    margin: 0;
+    color: var(--brand);
+    margin-bottom: 2rem;
+    @media (min-width: $breakpoint-large) {
+      padding-left: 2.5vw;
+      margin-bottom: 0;
     }
   }
-  @media (min-width: $breakpoint-xl) {
-    p {
+
+  p {
+    margin:0;
+    margin-bottom: 0rem;
+    align-self: flex-end;
+    max-width: 40em;
+    padding-right: 5vw;
+    @media (min-width: $breakpoint-xl) {
       font-size: 1.25vw;
       opacity: 0.8;
       font-weight: 300;
