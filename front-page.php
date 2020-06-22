@@ -21,7 +21,7 @@ get_header();
 			$ofagency_description = get_bloginfo( 'description', 'display' );
 			if ( $ofagency_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $ofagency_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+				<?php echo $ofagency_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 			<?php endif; ?>
 		</h1>
     <p>We empower our partners by providing the right tools, guidance, 
