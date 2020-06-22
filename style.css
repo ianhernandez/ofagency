@@ -413,7 +413,7 @@ h3 {
 .main-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 20rem;
-	padding: 0 5vw;
+	padding: 0 2.5vw;
 }
 
 .button {
@@ -446,7 +446,7 @@ h3 {
 
 @media (min-width: 1200px) {
 	.header {
-		padding: 5vw 5vw 0;
+		padding: 2.5vw 2.5vw 0;
 	}
 }
 
