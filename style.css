@@ -481,8 +481,11 @@ h3 {
 .menu {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1rem;
 	align-items: center;
+}
+
+.menu-item + .menu-item {
+	margin-left: 2rem;
 }
 
 .intro {

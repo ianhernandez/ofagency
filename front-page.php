@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main main-front-page">
 	
 			<?php 
 			$ofagency_description = get_bloginfo( 'description', 'display' );

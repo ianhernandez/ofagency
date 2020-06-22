@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   @media (min-width: $breakpoint-large) {
-    padding: 5vw 5vw 0;
+    padding: $site-padding $site-padding 0;
   }
 }
 
@@ -38,7 +38,9 @@
 .menu {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1rem;
 	align-items: center;
+}
 
+.menu-item + .menu-item {
+	margin-left: 2rem;
 }

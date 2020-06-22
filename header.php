@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'ofagency' ); ?></a>
 
-	<header class="header">
+	<header id="masthead" class="site-header header">
   <div class="logo">
   <svg xmlns="http://www.w3.org/2000/svg" width="522.06" height="79.258" viewBox="0 0 522.06 79.258">
   <g id="OF_ANGENCY" data-name="OF ANGENCY" transform="translate(99.952 14.677)">
@@ -55,11 +55,3 @@
 			?>
 		</nav><!-- #site-navigation -->
 </header>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-
-		</div><!-- .site-branding -->
-
-	
-	</header><!-- #masthead -->
