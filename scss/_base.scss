@@ -7,6 +7,7 @@ $brand-2: #C74D4D;
 $site-padding: 2.5vw;
 
 $breakpoint-medium: 800px;
+$breakpoint-medium-plus: 1000px;
 $breakpoint-large: 1200px;
 $breakpoint-xl: 1600px;
 $breakpoint-xxl: 2000px;
@@ -72,7 +73,7 @@ h3 {
 
 .main-wrapper {
   padding: 0 $site-padding;
-  @media (min-width: $breakpoint-medium) {
+  @media (min-width: $breakpoint-medium-plus) {
     display: grid;
     grid-template-columns: 1fr 20rem;
   }

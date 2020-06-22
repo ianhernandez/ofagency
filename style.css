@@ -414,7 +414,7 @@ h3 {
 	padding: 0 2.5vw;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 	.main-wrapper {
 		display: grid;
 		grid-template-columns: 1fr 20rem;
