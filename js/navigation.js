@@ -49,18 +49,13 @@ toggle.addEventListener('click', function(e) {
     if (getCSSCustomProp('--menu-display', menu) == 'none') {
         console.log('value is none');
         menu.style.setProperty('--menu-display', 'flex');
-        console.log('value has been set to flex', getCSSCustomProp('--menu-display', menu));
-        
-        
-    }
-    else if (getCSSCustomProp('--menu-display', menu) != 'none') {
-        console.log('value is not none');
-        menu.style.setProperty('--menu-display', 'none');
-        console.log('value has been set to none',  getCSSCustomProp('--menu-display', menu));
-       ;
-        
+        console.log('value has been set to flex');
     }
 
-    
+    if (getCSSCustomProp('--menu-display', menu) == 'flex') {
+        console.log('value is flex');
+        menu.style.setProperty('--menu-display', 'none');
+        console.log('value has been set to none');
+    }
 
 });
