@@ -10,7 +10,8 @@
 get_header();
 ?>
 
-<div class="main-wrapper">
+
+<div class="grid-layout--1 container">
 
 	<main id="primary" class="site-main">
 
