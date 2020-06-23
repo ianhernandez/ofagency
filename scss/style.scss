@@ -51,9 +51,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 @import 'reset';
-@import 'wordpress';
 @import 'utility';
 @import 'base';
+@import 'wordpress';
 @import './components/buttons';
 @import './components/navbar';
 @import 'homepage';
