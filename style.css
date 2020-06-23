@@ -753,8 +753,16 @@ i.ring {
 
 .super-guide img {
 	width: 100%;
-	height: auto;
-	margin-left: auto;
+	height: 30rem;
+	object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+	.super-guide img {
+		width: 100%;
+		height: auto;
+		margin-left: auto;
+	}
 }
 
 @media (min-width: 1200px) {
