@@ -9,6 +9,7 @@ let toggle = document.querySelector('#toggle-nav'),
     sidebar = document.querySelector('#site-navigation');
 
 toggle.addEventListener('click', function(e) {
+		console.log('toggle nav clicked');
     e.preventDefault();
     if (sidebar.classList.contains('hidden')) {
         sidebar.classList.remove('hidden');
