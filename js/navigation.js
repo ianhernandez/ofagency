@@ -12,10 +12,13 @@ let toggle = document.querySelector('#toggle-nav'),
 toggle.addEventListener('click', function(e) {
     e.preventDefault();
     let menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display')
+    console.log(menuVisibility);
 
     if (menuVisibility == 'none') {
+        console.log('menuVisibility is checked and it equals none');
         menu.style.setProperty('--menu-display', 'flex');
     } else {
-        enu.style.setProperty('--menu-display', 'none');
+        console.log('menuVisibility is checked and it equals not none');
+        menu.style.setProperty('--menu-display', 'none');
     }
 });
