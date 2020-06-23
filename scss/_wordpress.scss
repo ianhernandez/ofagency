@@ -7,7 +7,6 @@
 
 .post,
 .page {
-	margin: 0 0 1.5em;
 	border: 1px solid red;
 }
 
@@ -19,6 +18,7 @@
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	border: 2px solid green;
 }
 
 .page-links {
