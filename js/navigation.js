@@ -10,16 +10,12 @@ let toggle = document.querySelector('#toggle-nav'),
 
 
 toggle.addEventListener('click', function(e) {
-    console.log('toggle nav clicked');
-    console.log(getComputedStyle(menu).getPropertyValue('--menu-display'));
     e.preventDefault();
-    
+    let menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display')
 
-
-    
-    if (menu.classList.contains('hidden')) {
-        menu.classList.remove('hidden');
+    if (menuVisibility == 'none') {
+        menu.style.setProperty('--menu-display', 'flex');
     } else {
-        menu.classList.add('hidden');
+        enu.style.setProperty('--menu-display', 'none');
     }
 });
