@@ -236,6 +236,11 @@ h3 {
 	display: block;
 }
 
+.post .header,
+.page .header {
+	padding-bottom: 2.5vw;
+}
+
 .updated:not(.published) {
 	display: none;
 }

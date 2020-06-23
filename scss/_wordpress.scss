@@ -7,7 +7,11 @@
 
 .post,
 .page {
-	// 
+	
+	.header {
+		padding-bottom: 2.5vw;
+	}
+
 }
 
 .updated:not(.published) {
@@ -239,3 +243,4 @@ article.type-page, article.type-post {
 		}
 	}
 }
+
