@@ -236,8 +236,7 @@ h3 {
 	display: block;
 }
 
-.post .header,
-.page .header {
+.single .header, .page .header, .blog .header {
 	padding-bottom: 2.5vw;
 }
 
