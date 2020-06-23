@@ -185,12 +185,6 @@ a {
 	color: var(--brand);
 }
 
-a:focus {
-	background-color: var(--brand);
-	color: #fff;
-	outline: 0.75rem solid var(--brand);
-}
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
@@ -245,6 +239,7 @@ h3 {
 .post,
 .page {
 	margin: 0 0 1.5em;
+	border: 1px solid red;
 }
 
 .updated:not(.published) {
