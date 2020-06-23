@@ -692,20 +692,25 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .amarillo {
-	background-color: #FCF6EA;
+	background-color: #fcf6ea;
 }
 
-.amarillo h1, .amarillo h2, .amarillo h3, .amarillo h4, .amarillo h5, .amarillo h6 {
+.amarillo h1,
+.amarillo h2,
+.amarillo h3,
+.amarillo h4,
+.amarillo h5,
+.amarillo h6 {
 	color: #a57323;
 }
 
 .amarillo i {
-	color: #CBAC7A;
+	color: #cbac7a;
 	font-size: 2vw;
 }
 
 .amarillo i.ring {
-	background-color: #a07b3f22;
+	background-color: #a07b3f 22;
 }
 
 .amarillo .button {
@@ -722,7 +727,7 @@ i.ring {
 }
 
 .form-email .input {
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 	border: 0 none;
 	border-radius: 9rem;
 	padding: 1rem;
@@ -743,7 +748,7 @@ i.ring {
 .super-guide {
 	display: flex;
 	flex-direction: column;
-	color: #726D67;
+	color: #726d67;
 	position: relative;
 }
 
@@ -813,8 +818,8 @@ i.ring {
 .research-blurb {
 	padding: 0rem;
 	padding-top: var(--research-padding-top, 10vh);
-	background-color: #E7F4EA;
-	color: #48620D;
+	background-color: #e7f4ea;
+	color: #48620d;
 	grid-row: 1;
 	grid-column: 2 / span 5;
 	padding-left: 25vw;
@@ -825,17 +830,17 @@ i.ring {
 }
 
 .research-blurb i.ring {
-	background-color: #a1d4ad44;
+	background-color: #a1d4ad 44;
 	font-size: 1.5vw;
-	margin-right: .5vw;
+	margin-right: 0.5vw;
 }
 
 .research-blurb a:not(.button) {
-	color: #48620D;
+	color: #48620d;
 }
 
 .research-blurb .button {
-	background-color: #48620D;
+	background-color: #48620d;
 }
 
 .social {
@@ -865,11 +870,7 @@ i.ring {
 .offer-blurb i.ring {
 	font-size: 2vw;
 	color: var(--brand);
-	background-color: #b2383822;
-}
-
-.entry-header {
-	margin-top: 4rem;
+	background-color: #b23838 22;
 }
 
 /*# sourceMappingURL=style.css.map */

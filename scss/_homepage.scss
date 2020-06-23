@@ -24,7 +24,7 @@
   }
 
   p {
-    margin:0;
+    margin: 0;
     margin-bottom: 0rem;
     align-self: flex-end;
     max-width: 40em;
@@ -49,7 +49,7 @@
     padding-bottom: 5vw;
   }
   @media (min-width: 2000px) {
-     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   img {
     max-height: 15rem;
@@ -76,13 +76,13 @@
 
 .block-2 {
   padding-right: 2rem;
-  height: 100%
+  height: 100%;
 }
 
 .block-3 {
   padding: 2.5vw;
   @media (min-width: 2000px) {
-     padding: 5w;
+    padding: 5w;
   }
   margin-right: 5vw;
 }
@@ -92,26 +92,33 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  > * + * { margin-top: var(--stack-space);}
-  
+  > * + * {
+    margin-top: var(--stack-space);
+  }
+
   > p {
-   margin-top: var(--stack-space);
-   margin-bottom: 0;
+    margin-top: var(--stack-space);
+    margin-bottom: 0;
   }
 }
 
 .amarillo {
-  background-color: #FCF6EA;
-  
-  h1,h2,h3,h4,h5,h6 {
+  background-color: #fcf6ea;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #a57323;
   }
   i {
-    color: #CBAC7A;
+    color: #cbac7a;
     font-size: 2vw;
   }
   i.ring {
-    background-color: darken(#CBAC7A,20%)#{22};
+    background-color: darken(#cbac7a, 20%) #{22};
   }
   .button {
     background-color: #a57323;
@@ -126,14 +133,14 @@ i.ring {
 .form-email {
   display: flex;
   .input {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     border: 0 none;
     border-radius: 9rem;
     padding: 1rem;
     flex-grow: 1;
     outline: 0;
     &:focus {
-      box-shadow:inset 0 0 0 3px  var(--brand);
+      box-shadow: inset 0 0 0 3px var(--brand);
     }
   }
   .button {
@@ -146,7 +153,7 @@ i.ring {
 .super-guide {
   display: flex;
   flex-direction: column;
-  color: #726D67;
+  color: #726d67;
   position: relative;
   @media (min-width: $breakpoint-medium-plus) {
     display: grid;
@@ -164,7 +171,6 @@ i.ring {
     }
   }
 }
- 
 
 .super-guide__form {
   @media (min-width: $breakpoint-medium-plus) {
@@ -207,24 +213,24 @@ i.ring {
 .research-blurb {
   padding: 0rem;
   padding-top: var(--research-padding-top, 10vh);
-  background-color: #E7F4EA;
-  color: #48620D;
+  background-color: #e7f4ea;
+  color: #48620d;
   grid-row: 1;
   grid-column: 2 / span 5;
   padding-left: 25vw;
   p {
     max-width: 30em;
   }
-   i.ring {
-    background-color: darken(#E7F4EA,20%)#{44};
+  i.ring {
+    background-color: darken(#e7f4ea, 20%) #{44};
     font-size: 1.5vw;
-    margin-right: .5vw;
+    margin-right: 0.5vw;
   }
   a:not(.button) {
-    color: #48620D;
+    color: #48620d;
   }
   .button {
-    background-color: #48620D;
+    background-color: #48620d;
   }
 }
 
@@ -236,8 +242,6 @@ i.ring {
   }
 }
 
-
-
 .offer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -248,12 +252,11 @@ i.ring {
   }
 }
 
-
 .offer-blurb {
   padding: 5vw;
   i.ring {
     font-size: 2vw;
     color: var(--brand);
-    background-color: darken($brand,20%)#{22};
+    background-color: darken($brand, 20%) #{22};
   }
 }
