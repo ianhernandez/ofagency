@@ -490,6 +490,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .header {
+	border: 1px solid blue;
 	padding: 2.5vw 2rem 0;
 	display: flex;
 	flex-direction: column;
@@ -505,6 +506,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .logo {
+	border: 1px solid red;
 	line-height: 1;
 }
 
@@ -514,6 +516,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .logo svg {
+	border: 1px solid blueviolet;
 	width: 100%;
 	max-width: 15rem;
 	height: auto;
@@ -532,7 +535,8 @@ article.type-page .entry-title, article.type-post .entry-title {
 .nav {
 	display: flex;
 	align-items: center;
-	padding-top: 2rem;
+	padding-top: 2.5vw;
+	border: 1px solid orange;
 }
 
 @media (min-width: 800px) {

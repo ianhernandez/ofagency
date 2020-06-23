@@ -1,4 +1,5 @@
 .header {
+  border: 1px solid blue;
   padding: 2.5vw 2rem 0;
   display: flex;
   flex-direction: column;
@@ -11,6 +12,7 @@
 }
 
 .logo {
+  border: 1px solid red;
   line-height: 1;
   a {
     &:focus {
@@ -19,6 +21,7 @@
     }
   }
   svg {
+    border: 1px solid blueviolet;
     width: 100%;
     max-width: 15rem;
     height: auto;
@@ -34,7 +37,8 @@
 .nav {
   display: flex;
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 2.5vw;
+  border: 1px solid orange;
   @media (min-width: $breakpoint-medium) {
     padding-top: 0;
   }
