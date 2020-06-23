@@ -7,13 +7,14 @@
 
 let toggle = document.querySelector('#toggle-nav'),
     menu = document.querySelector('#site-navigation'); // aka .nav
-
+    menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display')
 
 toggle.addEventListener('click', function(e) {
+    
     e.preventDefault();
     let menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display')
     console.log(menuVisibility);
-
+    
     if (menuVisibility === 'none') {
         console.log('show menu fucntion');
         menu.style.setProperty('--menu-display', 'flex');
