@@ -11,10 +11,9 @@ let toggle = document.querySelector('#toggle-nav'),
 
 toggle.addEventListener('click', function(e) {
     console.log('toggle nav clicked');
+    console.log(getComputedStyle(menu).getPropertyValue('--menu-display'));
     e.preventDefault();
-    console.log(
-        getComputedStyle(menu).getPropertyValue('--menu-display');
-    );
+    
 
 
     
