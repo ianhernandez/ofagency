@@ -21,6 +21,7 @@ $breakpoint-xxl: 2000px;
 body {
   font-family: 'Lora', serif;
   color: #65625D;
+  line-height: 1.5;
 }
 
 a {
@@ -37,7 +38,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   margin: 0;
-  padding: 0;
+  padding: 0
+  line-height: 1.25;
 }
 
 .flex {

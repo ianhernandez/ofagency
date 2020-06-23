@@ -57,7 +57,7 @@ data & support to build their brand and increase their revenue.</p>
       <h3>Download Our OnlyFans<br>Super Guide Free!</h3>
       <p>Sign up for free access to our Super Guide, tried and true practices to grow we’ve discovered. <a href="#">Learn More</a></p>
       <form class="form-email">
-        <input type="text" class="input" value="Chris">
+        <input type="text" class="input" value="Enter Your Email">
         <input type="submit" class="button" value="Email Guide" />
       </form>
     </div>
