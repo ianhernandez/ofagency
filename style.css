@@ -501,7 +501,8 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .nav {
-	display: none;
+	--menu-display: none;
+	display: var(--menu-display);
 	align-items: center;
 	padding-top: 2.5vw;
 	border: 1px solid orange;
@@ -536,8 +537,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .menu {
-	--menu-display: flex;
-	display: var(--menu-display);
 	flex-wrap: wrap;
 	align-items: center;
 }
