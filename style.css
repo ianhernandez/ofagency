@@ -396,6 +396,7 @@ select {
 body {
 	font-family: 'Lora', serif;
 	color: #65625D;
+	line-height: 1.5;
 }
 
 a {
@@ -414,10 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	margin: 0;
 	padding: 0;
-}
-
-.flex {
-	display: flex;
+	line-height: 1.25;
 }
 
 .align-center {
@@ -649,6 +647,14 @@ h3 {
 	max-width: 40em;
 }
 
+@media (min-width: 1600px) {
+	.secondary p {
+		font-size: 1.25vw;
+		opacity: 0.8;
+		font-weight: 300;
+	}
+}
+
 .block-2 {
 	padding-right: 2rem;
 	height: 100%;
@@ -731,11 +737,18 @@ i.ring {
 }
 
 .super-guide {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 5vw;
+	display: flex;
+	flex-direction: column;
 	color: #726D67;
 	position: relative;
+}
+
+@media (min-width: 1200px) {
+	.super-guide {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 5vw;
+	}
 }
 
 .super-guide img {
