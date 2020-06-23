@@ -2,7 +2,7 @@
   padding: 2.5vw 2rem 0;
   display: flex;
   flex-direction: column;
-  @media (min-width: $breakpoint-medium) {
+  @media (min-width: $breakpoint-medium-plus) {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -20,8 +20,11 @@
   }
   svg {
     width: 100%;
-    max-width: 25rem;
+    max-width: 10rem;
     height: auto;
+    @media (min-width: $breakpoint-medium-plus) {
+      max-width: 25rem;
+    }
   }
   path {
     fill: #aaa;

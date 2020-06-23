@@ -495,7 +495,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	flex-direction: column;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 	.header {
 		flex-direction: row;
 		align-items: center;
@@ -515,8 +515,14 @@ article.type-page .entry-title, article.type-post .entry-title {
 
 .logo svg {
 	width: 100%;
-	max-width: 25rem;
+	max-width: 10rem;
 	height: auto;
+}
+
+@media (min-width: 1000px) {
+	.logo svg {
+		max-width: 25rem;
+	}
 }
 
 .logo path {
