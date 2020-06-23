@@ -145,11 +145,15 @@ i.ring {
 
 
 .super-guide {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5vw;
+  display: flex;
+  flex-direction: column;
   color: #726D67;
   position: relative;
+  @media (min-width: $breakpoint-large) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5vw;
+  }
   img {
     width: 100%;
     height: auto;
