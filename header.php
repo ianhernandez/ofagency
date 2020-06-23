@@ -46,6 +46,8 @@
 				</svg>
 				</a>	
 		</div>
+		
+		<button id="toggle-nav">Toggle</button>
 
 		<nav id="site-navigation" class="main-navigation nav">
 			<?php
