@@ -757,10 +757,12 @@ i.ring {
 	margin-left: auto;
 }
 
-.super-guide__form {
-	padding: 0 5vw;
-	align-self: center;
-	justify-self: center;
+@media (min-width: 1200px) {
+	.super-guide__form {
+		padding: 0 5vw;
+		align-self: center;
+		justify-self: center;
+	}
 }
 
 .super-guide__form:before {

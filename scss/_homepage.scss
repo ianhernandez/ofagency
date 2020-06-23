@@ -162,6 +162,11 @@ i.ring {
  
 
 .super-guide__form {
+  @media (min-width: $breakpoint-large) {
+    padding: 0 5vw;
+    align-self: center;
+    justify-self: center;
+  }
   &:before {
     content: "";
     position: absolute;
@@ -175,9 +180,6 @@ i.ring {
     background-position: bottom left;
     z-index: -1;
   }
-  padding: 0 5vw;
-  align-self: center;
-  justify-self: center;
   p {
     max-width: 30em;
   }
