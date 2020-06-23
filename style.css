@@ -356,6 +356,10 @@ select {
 	margin-bottom: 1.5rem;
 }
 
+article.type-page .entry-title {
+	max-width: 30em;
+}
+
 .hidden {
 	display: none;
 }
