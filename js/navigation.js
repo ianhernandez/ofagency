@@ -52,7 +52,7 @@ toggle.addEventListener('click', function(e) {
         console.log('value has been set to flex');
     }
 
-    if (getCSSCustomProp('--menu-display', menu) == 'flex') {
+    else if (getCSSCustomProp('--menu-display', menu) == 'flex') {
         console.log('value is flex');
         menu.style.setProperty('--menu-display', 'none');
         console.log('value has been set to none');
