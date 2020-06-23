@@ -743,7 +743,7 @@ i.ring {
 	position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	.super-guide {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -765,7 +765,7 @@ i.ring {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	.super-guide__form {
 		padding: 0 5vw;
 		align-self: center;

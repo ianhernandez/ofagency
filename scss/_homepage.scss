@@ -148,7 +148,7 @@ i.ring {
   flex-direction: column;
   color: #726D67;
   position: relative;
-  @media (min-width: $breakpoint-large) {
+  @media (min-width: $breakpoint-medium-plus) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5vw;
@@ -167,7 +167,7 @@ i.ring {
  
 
 .super-guide__form {
-  @media (min-width: $breakpoint-large) {
+  @media (min-width: $breakpoint-medium-plus) {
     padding: 0 5vw;
     align-self: center;
     justify-self: center;
