@@ -13,11 +13,11 @@ let toggle = document.querySelector('#toggle-nav'),
 toggle.addEventListener('click', function(e) {
     
     e.preventDefault();
-    let menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display')
+    let menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display');
     console.log(menuVisibility);
 
-    if (menuVisibility === 'none') {
-        console.log('show menu fucntion');
+    if (getComputedStyle(menu).getPropertyValue('--menu-display') == 'none') {
+        console.log('equals none');
         menu.style.setProperty('--menu-display', 'flex');
     } else {
         console.log('hiding menu function');
