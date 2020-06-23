@@ -52,7 +52,7 @@
      grid-template-columns: 1fr 1fr;
   }
   img {
-    max-height: 20rem;
+    max-height: 15rem;
     object-fit: cover;
     margin-bottom: 3rem;
     @media (min-width: $breakpoint-medium-plus) {
@@ -104,7 +104,7 @@
   background-color: #FCF6EA;
   
   h1,h2,h3,h4,h5,h6 {
-    color: #CBAC7A;
+    color: #a57323;
   }
   i {
     color: #CBAC7A;
@@ -114,7 +114,7 @@
     background-color: darken(#CBAC7A,20%)#{22};
   }
   .button {
-    background-color: #CBAC7A;
+    background-color: #a57323;
   }
 }
 
