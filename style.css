@@ -645,6 +645,10 @@ h3 {
 	}
 }
 
+.secondary p {
+	max-width: 35rem;
+}
+
 .block-2 {
 	padding-right: 2rem;
 	height: 100%;
