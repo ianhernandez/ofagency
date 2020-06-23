@@ -45,7 +45,11 @@ let toggle = document.querySelector('#toggle-nav'),
     menu = document.querySelector('#site-navigation'); // aka .nav
     
 toggle.addEventListener('click', function(e) {
-   console.log( getCSSCustomProp('--menu-display', menu));
     e.preventDefault();
+    if (getCSSCustomProp('--menu-display', menu) == 'none') {
+        console.log('value is none');
+    }
+
+    
 
 });
