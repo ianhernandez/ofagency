@@ -35,12 +35,14 @@
 }
 
 .nav {
-  display: flex;
+  display: none;
   align-items: center;
   padding-top: 2.5vw;
   border: 1px solid orange;
   @media (min-width: $breakpoint-medium) {
     padding-top: 0;
+    display: flex;
+    align-items: center;
   }
   @media (min-width: $breakpoint-large) {
     font-size: clamp(1.25rem, 1.5vw, 1.5rem);

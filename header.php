@@ -49,7 +49,7 @@
 
 		<button id="toggle-nav">Toggle</button>
 
-		<nav id="site-navigation" class="main-navigation nav hidden">
+		<nav id="site-navigation" class="main-navigation nav">
 			<?php
 			wp_nav_menu(
 				array(
