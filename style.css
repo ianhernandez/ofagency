@@ -272,6 +272,10 @@ h3 {
 	margin: 0 0 1.5rem;
 }
 
+.widget-title {
+	font-size: 1.5rem;
+}
+
 .widget select {
 	max-width: 100%;
 }
