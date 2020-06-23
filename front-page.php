@@ -31,7 +31,7 @@ data & support to build their brand and increase their revenue.</p>
   <section class="secondary">
     <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
     <div class="stack block-2" style="--stack-space: 2rem;">
-      <h2>Empowering Creators Every Step of the Way</h2>
+      <h2>Empowering Creators <wbr>Every Step of the Way</h2>
       <p>OF AGENCY is a new agency in Los Angeles, California with a strength in marketing, management, discovering opportunities & deep industry knowledge.</p>
       <div class="social">
         <i class="fab fa-snapchat"></i>
