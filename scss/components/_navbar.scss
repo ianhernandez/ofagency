@@ -61,7 +61,8 @@
 }
 
 .menu {
-	display: flex;
+  --menu-display: flex;
+	display: var(--menu-display);
 	flex-wrap: wrap;
 	align-items: center;
 }

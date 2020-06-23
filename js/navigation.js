@@ -6,14 +6,21 @@
  */
 
 let toggle = document.querySelector('#toggle-nav'),
-    sidebar = document.querySelector('#site-navigation');
+    menu = document.querySelector('#site-navigation'); // aka .nav
+
 
 toggle.addEventListener('click', function(e) {
-		console.log('toggle nav clicked');
+    console.log('toggle nav clicked');
     e.preventDefault();
-    if (sidebar.classList.contains('hidden')) {
-        sidebar.classList.remove('hidden');
+    console.log(
+        getComputedStyle(menu).getPropertyValue('--menu-display');
+    );
+
+
+    
+    if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
     } else {
-        sidebar.classList.add('hidden');
+        menu.classList.add('hidden');
     }
 });
