@@ -455,13 +455,13 @@ h3 {
 	margin-bottom: 1.5rem;
 }
 
-article.type-page .entry-title {
+article.type-page .entry-title, article.type-post .entry-title {
 	max-width: 20em;
 	font-size: 2rem;
 }
 
 @media (min-width: 1200px) {
-	article.type-page .entry-title {
+	article.type-page .entry-title, article.type-post .entry-title {
 		font-size: 3rem;
 	}
 }
