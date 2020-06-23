@@ -627,7 +627,7 @@ h3 {
 }
 
 .secondary img {
-	max-height: 25rem;
+	max-height: 20rem;
 	object-fit: cover;
 	margin-bottom: 3rem;
 }
