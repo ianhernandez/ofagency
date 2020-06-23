@@ -14,11 +14,11 @@ toggle.addEventListener('click', function(e) {
     let menuVisibility = getComputedStyle(menu).getPropertyValue('--menu-display')
     console.log(menuVisibility);
 
-    if (menuVisibility == 'none') {
-        console.log('menuVisibility is checked and it equals none');
+    if (menuVisibility === 'none') {
+        console.log('show menu fucntion');
         menu.style.setProperty('--menu-display', 'flex');
     } else {
-        console.log('menuVisibility is checked and it equals not none');
+        console.log('hiding menu function');
         menu.style.setProperty('--menu-display', 'none');
     }
 });
