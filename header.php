@@ -46,10 +46,10 @@
 				</svg>
 				</a>	
 		</div>
-		
+
 		<button id="toggle-nav">Toggle</button>
 
-		<nav id="site-navigation" class="main-navigation nav">
+		<nav id="site-navigation" class="main-navigation nav hidden">
 			<?php
 			wp_nav_menu(
 				array(
