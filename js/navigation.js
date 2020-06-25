@@ -39,8 +39,7 @@ const getCSSCustomProp = (propKey, element = document.documentElement, castAs = 
     return response;
   };
 
-
-
+  
 let toggle = document.querySelector('#toggle-nav'),
     menu = document.querySelector('#site-navigation'); // aka .nav
     

@@ -511,7 +511,8 @@ article.type-page .entry-title, article.type-post .entry-title {
 @media (min-width: 800px) {
 	.nav {
 		padding-top: 0;
-		--menu-display: flex;
+		--menu-display: flex !important;
+		flex-direction: row;
 		align-items: center;
 	}
 }
@@ -533,6 +534,12 @@ article.type-page .entry-title, article.type-post .entry-title {
 @media (min-width: 1200px) {
 	.nav a + a {
 		margin-left: clamp(1rem, 3vw, 3rem);
+	}
+}
+
+@media (min-width: 800px) {
+	#toggle-nav {
+		display: none;
 	}
 }
 

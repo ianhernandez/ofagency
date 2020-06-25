@@ -42,7 +42,8 @@
   border: 1px solid orange;
   @media (min-width: $breakpoint-medium) {
     padding-top: 0;
-    --menu-display: flex;
+    --menu-display: flex !important;
+    flex-direction: row;
     align-items: center;
   }
   @media (min-width: $breakpoint-large) {
@@ -60,6 +61,14 @@
     }
   }
 }
+
+#toggle-nav {
+  @media (min-width: $breakpoint-medium) {
+    display: none;
+  }
+  
+}
+
 
 .menu {
 	flex-wrap: wrap;
