@@ -459,7 +459,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 
 .header {
 	border: 1px solid blue;
-	padding: 2.5vw 2rem 0;
+	padding: 1rem 1rem 0;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
