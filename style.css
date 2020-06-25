@@ -478,6 +478,10 @@ article.type-page .entry-title, article.type-post .entry-title {
 	line-height: 1;
 }
 
+.logo a {
+	display: block;
+}
+
 .logo a:focus {
 	background-color: transparent;
 	outline: 0 none;
