@@ -47,7 +47,7 @@
 				</a>	
 		</div>
 
-		<button id="toggle-nav">Toggle</button>
+		<button class="toggle-navigation" id="toggle-nav">Menu</button>
 
 		<nav id="site-navigation" class="main-navigation nav">
 			<?php
