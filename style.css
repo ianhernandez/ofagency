@@ -511,14 +511,14 @@ article.type-page .entry-title, article.type-post .entry-title {
 	--menu-display: none;
 	display: var(--menu-display);
 	align-items: center;
-	padding-top: 2.5vw;
+	margin-top: 2.5vw;
 	border: 1px solid orange;
 	width: 100%;
 }
 
 @media (min-width: 800px) {
 	.nav {
-		padding-top: 0;
+		margin-top: 0;
 		width: auto;
 		--menu-display: flex !important;
 	}
