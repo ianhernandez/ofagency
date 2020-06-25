@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
+  z-index: 500;
   @media (min-width: $breakpoint-medium) {
     padding: $site-padding $site-padding;
   }
