@@ -75,16 +75,24 @@
 }
 
 .block-2 {
-  padding-right: 2rem;
-  height: 100%;
+  padding: 1rem;
+  @media (min-width: $breakpoint-medium-plus) {
+    padding: 0;
+    padding-right: 2rem;
+    height: 100%;
+  }
 }
 
 .block-3 {
-  padding: 2.5vw;
+  padding: 1rem;
+  @media (min-width: $breakpoint-medium-plus) {
+    padding: 2.5vw;
+    margin-right: 5vw;
+  }
+
   @media (min-width: 2000px) {
     padding: 5w;
   }
-  margin-right: 5vw;
 }
 
 .stack {
