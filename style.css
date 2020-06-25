@@ -496,6 +496,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	width: 100%;
 	max-width: 12rem;
 	height: auto;
+	display: block;
 }
 
 @media (min-width: 1000px) {

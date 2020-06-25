@@ -31,6 +31,7 @@
     width: 100%;
     max-width: 12rem;
     height: auto;
+    display: block;
     @media (min-width: $breakpoint-medium-plus) {
       max-width: 25rem;
     }
