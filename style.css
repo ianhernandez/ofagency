@@ -677,6 +677,12 @@ article.type-page .entry-title, article.type-post .entry-title {
 	padding: 1rem;
 }
 
+@media (min-width: 600px) {
+	.block-3 {
+		padding: 2rem;
+	}
+}
+
 @media (min-width: 1000px) {
 	.block-3 {
 		padding: 2.5vw;
