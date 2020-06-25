@@ -25,7 +25,7 @@
   svg {
     border: 1px solid blueviolet;
     width: 100%;
-    max-width: 15rem;
+    max-width: 12rem;
     height: auto;
     @media (min-width: $breakpoint-medium-plus) {
       max-width: 25rem;
@@ -68,7 +68,6 @@
   @media (min-width: $breakpoint-medium) {
     display: none;
   }
-  
 }
 
 .menu {
