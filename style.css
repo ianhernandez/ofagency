@@ -464,7 +464,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	flex-direction: column;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
 	.header {
 		flex-direction: row;
 		align-items: center;
