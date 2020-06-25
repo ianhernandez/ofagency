@@ -43,8 +43,6 @@
   @media (min-width: $breakpoint-medium) {
     padding-top: 0;
     --menu-display: flex !important;
-    flex-direction: row;
-    align-items: center;
   }
   @media (min-width: $breakpoint-large) {
     font-size: clamp(1.25rem, 1.5vw, 1.5rem);
@@ -71,8 +69,9 @@
 
 
 .menu {
+  flex-direction: row;
+  align-items: center;
 	flex-wrap: wrap;
-	align-items: center;
 }
 
 .menu-item + .menu-item {

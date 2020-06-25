@@ -512,8 +512,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 	.nav {
 		padding-top: 0;
 		--menu-display: flex !important;
-		flex-direction: row;
-		align-items: center;
 	}
 }
 
@@ -544,8 +542,9 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .menu {
-	flex-wrap: wrap;
+	flex-direction: row;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .menu-item + .menu-item {
