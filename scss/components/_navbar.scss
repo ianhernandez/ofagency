@@ -44,6 +44,7 @@
   width: 100%;
   @media (min-width: $breakpoint-medium) {
     padding-top: 0;
+    width: auto;
     --menu-display: flex !important;
   }
   @media (min-width: $breakpoint-large) {

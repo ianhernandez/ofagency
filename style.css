@@ -512,6 +512,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 @media (min-width: 800px) {
 	.nav {
 		padding-top: 0;
+		width: auto;
 		--menu-display: flex !important;
 	}
 }
