@@ -511,7 +511,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 	display: var(--menu-display);
 	align-items: center;
 	margin-top: 2.5vw;
-	border: 1px solid orange;
 	width: 100%;
 }
 
