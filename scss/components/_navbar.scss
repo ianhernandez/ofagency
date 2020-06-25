@@ -1,6 +1,6 @@
 .header {
   border: 1px solid blue;
-  padding: 1rem 1rem 0;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -10,7 +10,7 @@
   top: 0;
   background-color: #fff;
   @media (min-width: $breakpoint-medium) {
-    padding: $site-padding $site-padding 0;
+    padding: $site-padding $site-padding;
   }
   
 }
