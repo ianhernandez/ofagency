@@ -490,7 +490,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .logo svg {
-	border: 1px solid blueviolet;
 	width: 100%;
 	max-width: 12rem;
 	height: auto;
