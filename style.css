@@ -458,7 +458,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .header {
-	border: 1px solid blue;
 	padding: 1rem;
 	display: flex;
 	flex-wrap: wrap;
@@ -478,7 +477,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .logo {
-	border: 1px solid red;
 	line-height: 1;
 }
 
