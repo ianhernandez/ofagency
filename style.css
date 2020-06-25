@@ -204,7 +204,7 @@ h3 {
 	display: block;
 }
 
-.single .header, .page .header, .blog .header {
+.single .header, .page:not(.home) .header, .blog .header {
 	padding-bottom: 2.5vw;
 }
 
@@ -465,6 +465,9 @@ article.type-page .entry-title, article.type-post .entry-title {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
 }
 
 @media (min-width: 800px) {
@@ -559,7 +562,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .intro {
-	padding: 2rem 2rem 3rem;
+	padding: 2rem 1rem 3rem;
 }
 
 @media (min-width: 1600px) {

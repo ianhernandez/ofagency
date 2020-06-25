@@ -6,6 +6,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
   @media (min-width: $breakpoint-medium) {
     padding: $site-padding $site-padding 0;
   }
