@@ -210,10 +210,6 @@ h3 {
 	display: block;
 }
 
-.single .header, .page:not(.home) .header, .blog .header {
-	padding-bottom: 2.5vw;
-}
-
 .updated:not(.published) {
 	display: none;
 }
