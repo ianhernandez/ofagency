@@ -2,11 +2,10 @@
   border: 1px solid blue;
   padding: 2.5vw 2rem 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   @media (min-width: $breakpoint-medium) {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     padding: $site-padding $site-padding 0;
   }
   
