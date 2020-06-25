@@ -542,6 +542,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .menu {
+	display: flex;
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
