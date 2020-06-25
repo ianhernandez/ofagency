@@ -2,6 +2,7 @@
   border: 1px solid blue;
   padding: 2.5vw 2rem 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -40,6 +41,7 @@
   align-items: center;
   padding-top: 2.5vw;
   border: 1px solid orange;
+  width: 100%;
   @media (min-width: $breakpoint-medium) {
     padding-top: 0;
     --menu-display: flex !important;

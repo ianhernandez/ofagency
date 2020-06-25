@@ -461,6 +461,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	border: 1px solid blue;
 	padding: 2.5vw 2rem 0;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
@@ -505,6 +506,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	align-items: center;
 	padding-top: 2.5vw;
 	border: 1px solid orange;
+	width: 100%;
 }
 
 @media (min-width: 800px) {
