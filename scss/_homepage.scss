@@ -283,7 +283,7 @@ i.ring {
     width: auto;
     fill: #555;
     @media (min-width: $breakpoint-medium-plus) {
-      font-size: 2rem;
+      height: 2rem;
     }
   }
   > * + * {
