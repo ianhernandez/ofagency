@@ -22,6 +22,10 @@
 	display: flex;
 }
 
+.flex-row {
+	flex-direction: column;
+}
+
 .inline-flex {
 	display: inline-flex;
 }
