@@ -606,7 +606,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 
 @media (min-width: 1600px) {
 	.intro p {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		opacity: 0.8;
 		font-weight: 300;
 	}
@@ -657,7 +657,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 
 @media (min-width: 1600px) {
 	.secondary p {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		opacity: 0.8;
 		font-weight: 300;
 	}
