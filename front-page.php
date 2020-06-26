@@ -31,8 +31,8 @@ data & support to build their brand and increase their revenue.</p>
   <section class="secondary">
     <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
     <div class="stack block-2" style="--stack-space: 2rem;">
-      <h2>Empowering Creators<br>Every Step of the Way</h2>
-      <p>OF AGENCY is a new agency in Los Angeles, California with a strength in marketing, management, discovering opportunities & deep industry knowledge.</p>
+      <h2>Stop leaving money on the table. Everything you need to maximize your potential</h2>
+      <p>Based out of sunny Los Angeles, California. We're an experienced team of marketers, influencers & go getters working in the modeling industry since the beginning Instagram. We provide our clients with guidance, resources, and tools to make more money while doing less work.</p>
       <div class="social">
         <i class="fab fa-snapchat"></i>
         <i class="fab fa-instagram"></i>
