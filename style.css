@@ -875,9 +875,15 @@ i.ring {
 .social {
 	font-size: 2rem;
 	display: flex;
+	align-items: center;
 }
 
-.social > i + i {
+.social svg {
+	height: 32px;
+	width: auto;
+}
+
+.social > * + * {
 	margin-left: 2rem;
 }
 
