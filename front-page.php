@@ -33,10 +33,8 @@ data & support to build their brand and increase their revenue.</p>
       <source media="(min-width: 36em)"
           srcset="
           https://source.unsplash.com/-ldsHdX28OI/1200x1800 640w,
-          https://source.unsplash.com/ear8VOL7x8k/1400x2200  320w"
-          sizes="33.3vw" />
-      <source srcset="https://source.unsplash.com/ZvbhojfQ2g4/1200x1600 2x,
-        https://source.unsplash.com/ZvbhojfQ2g4/1200x1600 1x" />
+          https://source.unsplash.com/ear8VOL7x8k/1400x2200 320w"
+          />
       <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
     </picture>
     
