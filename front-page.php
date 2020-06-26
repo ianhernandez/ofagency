@@ -40,11 +40,11 @@ data & support to build their brand and increase their revenue.</p>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-facebook"></i>
       </div>
-      <p>Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram. Having previously built a modeling group with over half a million followers, with some of our models passing the 1 million follower sealing, we know what it takes to navigate this crazy market. We provide our clients with guidance, resources, and tools to make more money while doing less work.</p>
+      <p>Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram. Having previously built a modeling group with over half a million followers, and some of our models surpassing 1 million followers, we know what it takes to navigate this provocative market. We will provide you with guidance, resources and tools to make more passive money efficiently.</p>
     </div>
     
   <div class="amarillo stack block-3" style="--stack-space: 2rem;">
-    <h2>Don't Go It Alone</h2>
+    <h2>It may feel scary, but you don't need to go it alone.</h2>
     <div class="flex align-center">
       <p>The lanscape is confusing and unreliable, but we can be the absolute best guide in the complex maze</p>
     </div>
