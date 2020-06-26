@@ -48,6 +48,8 @@ data & support to build their brand and increase their revenue.</p>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitch"></i>
+        <i class="fab fa-patreon"></i>
       </div>
       <p>Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram. Having previously built a modeling group with over half a million followers, with some of our models surpassing 1 million followers, we know what it takes to navigate this provocative market. We will provide you with guidance, resources and tools to make more passive money efficiently.</p>
     </div>
