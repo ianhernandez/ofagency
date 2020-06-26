@@ -35,7 +35,7 @@ data & support to build their brand and increase their revenue.</p>
            https://source.unsplash.com/ear8VOL7x8k/1400x2200 640w,
            https://source.unsplash.com/-ldsHdX28OI/1200x1800 320w"
           />
-      <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
+      <img src="https://source.unsplash.com/-ldsHdX28OI/1200x1800" class="" alt="">
     </picture>
     
     <div class="stack block-2" style="--stack-space: 2rem;">
