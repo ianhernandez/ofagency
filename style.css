@@ -714,6 +714,13 @@ article.type-page .entry-title, article.type-post .entry-title {
 	}
 }
 
+@media (max-width: 999px) {
+	.block-3 .button {
+		display: block;
+		width: 100%;
+	}
+}
+
 .stack {
 	--stack-space: 1rem;
 	display: flex;

@@ -111,6 +111,14 @@
   @media (min-width: 2000px) {
     padding: 5w;
   }
+
+  .button {
+    @media (max-width: $breakpoint-medium-plus - 1px) {
+      display: block;
+      width: 100%;
+    }
+  
+  }
 }
 
 .stack {
