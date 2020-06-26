@@ -692,7 +692,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 @media (min-width: 1000px) {
 	.block-2 {
 		padding: 0;
-		padding-right: 2rem;
+		padding-right: 5vw;
 		height: 100%;
 	}
 }
