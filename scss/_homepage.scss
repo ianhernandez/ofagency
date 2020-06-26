@@ -275,10 +275,16 @@ i.ring {
   flex-wrap: wrap;
   align-items: center;
   color: #555;
+  @media (min-width: $breakpoint-medium-plus) {
+    font-size: 2rem;
+  }
   svg {
     height: 1.5rem;
     width: auto;
     fill: #555;
+    @media (min-width: $breakpoint-medium-plus) {
+      font-size: 2rem;
+    }
   }
   > * + * {
     margin-left: 1rem;

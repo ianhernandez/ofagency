@@ -898,10 +898,22 @@ i.ring {
 	color: #555;
 }
 
+@media (min-width: 1000px) {
+	.social {
+		font-size: 2rem;
+	}
+}
+
 .social svg {
 	height: 1.5rem;
 	width: auto;
 	fill: #555;
+}
+
+@media (min-width: 1000px) {
+	.social svg {
+		font-size: 2rem;
+	}
 }
 
 .social > * + * {
