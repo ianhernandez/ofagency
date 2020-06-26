@@ -882,7 +882,7 @@ i.ring {
 .social svg {
 	height: 32px;
 	width: auto;
-	fill: inherit;
+	fill: #555;
 }
 
 .social > * + * {
