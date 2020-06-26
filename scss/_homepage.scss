@@ -41,6 +41,7 @@
 .secondary {
   display: flex;
   flex-direction: column;
+  
   @media (min-width: $breakpoint-medium-plus) {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -49,9 +50,11 @@
     grid-row-gap: 5vw;
     padding-bottom: 5vw;
   }
+
   @media (min-width: 2000px) {
     grid-template-columns: 1fr 1fr;
   }
+
   picture {
     max-height: 15rem;
     margin-bottom: 1rem;
