@@ -30,7 +30,7 @@ data & support to build their brand and increase their revenue.</p>
   
   <section class="secondary">
     <picture>
-      <source media="(min-width: 36em)"
+      <source media="(min-width: 10em)"
           srcset="
            https://source.unsplash.com/ear8VOL7x8k/1400x2200 640w,
            https://source.unsplash.com/-ldsHdX28OI/1200x1800 320w"
