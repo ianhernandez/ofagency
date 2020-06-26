@@ -252,9 +252,11 @@ i.ring {
   font-size: 2rem;
   display: flex;
   align-items: center;
+  color: #555;
   svg {
     height: 32px;
     width: auto;
+    fill: inherit;
   }
   > * + * {
     margin-left: 2rem;

@@ -876,11 +876,13 @@ i.ring {
 	font-size: 2rem;
 	display: flex;
 	align-items: center;
+	color: #555;
 }
 
 .social svg {
 	height: 32px;
 	width: auto;
+	fill: inherit;
 }
 
 .social > * + * {
