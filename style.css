@@ -455,6 +455,10 @@ article.type-page .entry-title, article.type-post .entry-title {
 	outline: 0;
 }
 
+.button.block {
+	width: 100%;
+}
+
 .button-lg {
 	font-size: 1.25rem;
 }
