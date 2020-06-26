@@ -31,7 +31,7 @@ data & support to build their brand and increase their revenue.</p>
   <section class="secondary">
     <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
     <div class="stack block-2" style="--stack-space: 2rem;">
-      <h2>Stop leaving money on the table, maximize your potential on OnlyFans and beyond</h2>
+      <h2>Stop leaving money on the table, max your potential on OnlyFans and beyond</h2>
       <p>Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram. We provide our clients with guidance, resources, and tools to make more money while doing less work.</p>
       <div class="social">
         <i class="fab fa-snapchat"></i>
