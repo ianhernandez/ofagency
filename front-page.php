@@ -29,7 +29,17 @@ data & support to build their brand and increase their revenue.</p>
   </section>
   
   <section class="secondary">
-    <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
+    <picture>
+      <source media="(min-width: 36em)"
+          srcset="
+          https://source.unsplash.com/-ldsHdX28OI/1200x1800 640w,
+          https://source.unsplash.com/ear8VOL7x8k/1400x2200  320w"
+          sizes="33.3vw" />
+      <source srcset="https://source.unsplash.com/ZvbhojfQ2g4/1200x1600 2x,
+        https://source.unsplash.com/ZvbhojfQ2g4/1200x1600 1x" />
+      <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
+    </picture>
+    
     <div class="stack block-2" style="--stack-space: 2rem;">
       <h2>Don't leave money on the table, max your revenue on OnlyFans & beyond</h2>
       <p>Are you an existing creator looking for guidance on gaining, retaining and maximizing your subscriptions? Are you new and looking to jump head first into being your own boss? We're here to help you cut through all the noise and provide the best guidance at whatever stage you're at in your career.</p>
