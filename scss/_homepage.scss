@@ -91,8 +91,10 @@
 }
 
 .block-2 {
-  padding: 2rem;
-
+  padding: 1rem;
+  @media (min-width: $breakpoint-small-plus) {
+    padding: 2rem;
+  }
   @media (min-width: $breakpoint-medium-plus) {
     padding: 0;
     padding-right: 2rem;
@@ -101,10 +103,8 @@
 }
 
 .block-3 {
-  padding: 1rem;
-  @media (min-width: $breakpoint-small-plus) {
-    padding: 2rem;
-  }
+  padding: 2rem;
+
   @media (min-width: $breakpoint-medium-plus) {
     padding: 2.5vw;
     margin-right: 5vw;

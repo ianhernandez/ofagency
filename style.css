@@ -681,7 +681,13 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .block-2 {
-	padding: 2rem;
+	padding: 1rem;
+}
+
+@media (min-width: 600px) {
+	.block-2 {
+		padding: 2rem;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -693,13 +699,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .block-3 {
-	padding: 1rem;
-}
-
-@media (min-width: 600px) {
-	.block-3 {
-		padding: 2rem;
-	}
+	padding: 2rem;
 }
 
 @media (min-width: 1000px) {
