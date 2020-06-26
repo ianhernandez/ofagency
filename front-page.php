@@ -32,21 +32,21 @@ data & support to build their brand and increase their revenue.</p>
     <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
     <div class="stack block-2" style="--stack-space: 2rem;">
       <h2>Stop leaving money on the table, max your potential on OnlyFans and beyond</h2>
-      <p>Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram. We provide our clients with guidance, resources, and tools to make more money while doing less work.</p>
+      <p>Don't go it alone. Are you an existing creator guidance on gaining, retaining and maximizing your subscriptions? Are you new and looking to jump head first into making money on your own time? We're here to help you cut through all the noise and provide the best guidance at whatever stage you're at in your career.</p>
+      
       <div class="social">
         <i class="fab fa-snapchat"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-facebook"></i>
       </div>
-      <p>We will maximize your potential on every platform. Let our copywriters, designers, and content experts</p>
+      <p>Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram. Having previously built a modeling group with over half a million followers, with some of our models passing the 1 million follower sealing, we know what it takes to navigate this crazy market. We provide our clients with guidance, resources, and tools to make more money while doing less work.</p>
     </div>
     
   <div class="amarillo stack block-3" style="--stack-space: 2rem;">
-    <h2>Data Driven, Market Focused, Design Oriented</h2>
+    <h2>Don't Go It Alone</h2>
     <div class="flex align-center">
-      <i class="ring fas fa-analytics"></i>
-      <p>Lorem ipsum dolor sit amet, ut aeque iudicabit his, ad usu eros simul. Cu prima partem dolorem vix. Errem soleat bonorum nec in.</p>
+      <p>The lanscape is confusing and unreliable, but we can be the absolute best guide in the complex maze</p>
     </div>
     <a class="button" href="#">How To Join</a>
   </div>
