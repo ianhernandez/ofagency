@@ -58,6 +58,7 @@
   picture {
     max-height: 15rem;
     margin-bottom: 1rem;
+    overflow: hidden;
     @media (min-width: $breakpoint-medium-plus) {
       height: 100%;
       width: 100%;

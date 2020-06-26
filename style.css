@@ -638,6 +638,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 .secondary picture {
 	max-height: 15rem;
 	margin-bottom: 1rem;
+	overflow: hidden;
 }
 
 @media (min-width: 1000px) {
