@@ -448,6 +448,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	line-height: 1;
 	font-size: 1rem;
 	text-decoration: none;
+	text-align: center;
 }
 
 .button:focus {
