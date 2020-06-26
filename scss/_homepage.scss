@@ -251,15 +251,20 @@ i.ring {
 .social {
   font-size: 2rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   color: #555;
   svg {
-    height: 32px;
+    height: 2rem;
     width: auto;
     fill: #555;
   }
   > * + * {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    @media (min-width: $breakpoint-medium-plus) {
+      margin-left: 2rem;
+    }
+    
   }
 }
 
