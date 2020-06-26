@@ -41,7 +41,7 @@
 .secondary {
   display: flex;
   flex-direction: column;
-  
+
   @media (min-width: $breakpoint-medium-plus) {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -67,6 +67,8 @@
     }
   }
   img {
+    width: 100%;
+    height: auto;
     object-fit: cover;
     @media (min-width: $breakpoint-medium-plus) {
       height: 100%;
