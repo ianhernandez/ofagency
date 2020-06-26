@@ -635,14 +635,14 @@ article.type-page .entry-title, article.type-post .entry-title {
 	}
 }
 
-.secondary picture {
+.secondary img {
 	max-height: 15rem;
 	object-fit: cover;
 	margin-bottom: 1rem;
 }
 
 @media (min-width: 1000px) {
-	.secondary picture {
+	.secondary img {
 		height: 100%;
 		width: 100%;
 		max-height: 100vh;
