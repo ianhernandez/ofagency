@@ -31,7 +31,7 @@ data & support to build their brand and increase their revenue.</p>
   <section class="secondary">
     <img src="https://source.unsplash.com/ear8VOL7x8k/1400x2200" class="" alt="">
     <div class="stack block-2" style="--stack-space: 2rem;">
-      <h2>Stop leaving money on the table, max your potential on OnlyFans</h2>
+      <h2>Stop leaving money on the table, maximize your revenue on OnlyFans</h2>
       <p>Are you an existing creator looking for guidance on gaining, retaining and maximizing your subscriptions? Are you new and looking to jump head first into being your own boss? We're here to help you cut through all the noise and provide the best guidance at whatever stage you're at in your career.</p>
       
       <div class="social">
