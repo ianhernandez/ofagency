@@ -912,6 +912,7 @@ i.ring {
 @media (min-width: 1400px) {
 	.social {
 		font-size: 3rem;
+		margin-top: 3rem;
 	}
 }
 
