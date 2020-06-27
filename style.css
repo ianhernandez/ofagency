@@ -569,8 +569,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 	.intro {
 		display: grid;
 		grid-template-columns: 2fr 3fr;
-		padding-left: 0;
-		padding-right: 0;
 		gap: 5vw;
 	}
 }

@@ -4,8 +4,6 @@
   @media (min-width: $breakpoint-large) {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    padding-left: 0;
-    padding-right: 0;
     gap: 5vw;
   }
   @media (min-width: $breakpoint-large-plus) {
