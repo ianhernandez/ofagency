@@ -11,3 +11,20 @@
 		box-shadow: inset 0 0 0 3px var(--brand);
 	}
 }
+
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	background-color: var(--brand);
+  color: #fff;
+  padding: .75rem 1.25rem;
+  border-radius: 5rem;
+  display: inline-block;
+  border: 0 none;
+  line-height: 1;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  &:focus {
+    background-color: #111 !important;
+    outline: 0;
+  }
+}
