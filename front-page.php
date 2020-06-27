@@ -55,8 +55,8 @@ data & support to build their brand and increase their revenue.</p>
         <i class="fab fa-snapchat"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-twitter"></i>
+        <i class="fab fa-reddit"></i>
         <i class="fab fa-twitch"></i>
-        <i class="fab fa-tiktok"></i>
       </div>
       
     </div>
