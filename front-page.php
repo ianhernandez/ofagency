@@ -62,7 +62,7 @@ data & support to build their brand and increase their revenue.</p>
     <h2>It may feel scary, but you don't need to go it alone</h2>
     <p>Always there for you when you need it. Based out of sunny Los Angeles, California, we're an experienced team of marketers, influencers & go-getters working in the modeling industry since the dawn of Instagram.</p>
     <p>Having successfully launched a modeling group with over half a million followers, with some of our models surpassing 1 million followers, we know what it takes to navigate this provocative market. We will provide you with guidance, resources and tools to make more passive money efficiently.</p>
-    <a class="button" href="#">Get Started</a>
+    <a class="button" href="/apply">Get Started</a>
   </div>
 </section>
   

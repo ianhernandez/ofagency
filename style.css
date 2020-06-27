@@ -201,6 +201,7 @@ h3 {
 	.grid-layout--1 {
 		display: grid;
 		grid-template-columns: 1fr 20rem;
+		grid-gap: 2rem;
 	}
 }
 

@@ -84,5 +84,6 @@ h3 {
   @media (min-width: $breakpoint-medium-plus) {
     display: grid;
     grid-template-columns: 1fr 20rem;
+    grid-gap: 2rem;
   }
 }
