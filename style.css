@@ -712,9 +712,9 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
 
 @media (min-width: 1000px) {
 	.secondary picture {
+		max-height: 100%;
 		height: 100%;
 		width: 100%;
-		max-height: 100vh;
 		grid-row: span 2;
 		margin-bottom: 0;
 	}

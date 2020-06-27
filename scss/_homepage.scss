@@ -62,9 +62,9 @@
     margin-bottom: 1rem;
     overflow: hidden;
     @media (min-width: $breakpoint-medium-plus) {
+      max-height: 100%;
       height: 100%;
       width: 100%;
-      max-height: 100vh;
       grid-row: span 2;
       margin-bottom: 0;
     }
