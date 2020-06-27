@@ -70,7 +70,7 @@ data & support to build their brand and increase their revenue.</p>
 
 
 
-<div class="grid-layout--1 container">
+<div class="container">
 	<main id="primary" class="site-main main-front-page">
 
 		<?php
