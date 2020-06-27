@@ -574,7 +574,8 @@ article.type-page .entry-title, article.type-post .entry-title {
 .page div.wpforms-container-full .wpforms-form input[type=url],
 .page div.wpforms-container-full .wpforms-form input[type=password],
 .page div.wpforms-container-full .wpforms-form input[type=search],
-.page div.wpforms-container-full .wpforms-form input[type=number] {
+.page div.wpforms-container-full .wpforms-form input[type=number],
+.page div.wpforms-container-full .wpforms-form textarea {
 	border-radius: .25rem !important;
 }
 
@@ -583,7 +584,8 @@ article.type-page .entry-title, article.type-post .entry-title {
 .page div.wpforms-container-full .wpforms-form input[type=url]:focus,
 .page div.wpforms-container-full .wpforms-form input[type=password]:focus,
 .page div.wpforms-container-full .wpforms-form input[type=search]:focus,
-.page div.wpforms-container-full .wpforms-form input[type=number]:focus {
+.page div.wpforms-container-full .wpforms-form input[type=number]:focus,
+.page div.wpforms-container-full .wpforms-form textarea:focus {
 	border-color: transparent;
 	outline: 0 none;
 	box-shadow: inset 0 0 0 3px var(--brand);
