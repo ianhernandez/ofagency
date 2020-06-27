@@ -434,9 +434,10 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 .site-footer {
-	border-top: 1px solid #aaa;
+	border-top: 1px solid #ddd;
 	margin-top: 2rem;
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .button {
