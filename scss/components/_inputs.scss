@@ -1,4 +1,9 @@
-.page div.wpforms-container-full .wpforms-form input {
+.page div.wpforms-container-full .wpforms-form input,
+.page div.wpforms-container-full .wpforms-form input[type=email],
+.page div.wpforms-container-full .wpforms-form input[type=url],
+.page div.wpforms-container-full .wpforms-form input[type=password],
+.page div.wpforms-container-full .wpforms-form input[type=search],
+.page div.wpforms-container-full .wpforms-form input[type=number] {
 	border-radius: .25rem !important;
 	&:focus {
 		border-color: transparent;
