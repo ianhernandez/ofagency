@@ -565,12 +565,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 	padding: 2rem 1rem 3rem;
 }
 
-@media (min-width: 1600px) {
-	.intro {
-		padding: 4rem 2rem 10rem;
-	}
-}
-
 @media (min-width: 1200px) {
 	.intro {
 		display: grid;
@@ -578,6 +572,12 @@ article.type-page .entry-title, article.type-post .entry-title {
 		padding-left: 0;
 		padding-right: 0;
 		gap: 5vw;
+	}
+}
+
+@media (min-width: 1400px) {
+	.intro {
+		padding: 4rem 2rem 10rem;
 	}
 }
 
@@ -591,6 +591,12 @@ article.type-page .entry-title, article.type-post .entry-title {
 }
 
 @media (min-width: 1200px) {
+	.intro h1 {
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 1400px) {
 	.intro h1 {
 		font-size: 4.5rem;
 		padding-left: 2.5vw;

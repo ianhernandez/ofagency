@@ -1,8 +1,6 @@
 .intro {
   padding: 2rem 1rem 3rem;
-  @media (min-width: $breakpoint-xl) {
-    padding: 4rem 2rem 10rem;
-  }
+ 
   @media (min-width: $breakpoint-large) {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -10,7 +8,9 @@
     padding-right: 0;
     gap: 5vw;
   }
-
+  @media (min-width: $breakpoint-large-plus) {
+    padding: 4rem 2rem 10rem;
+  }
   h1 {
     padding-left: 0;
     line-height: 1.25;
@@ -19,6 +19,9 @@
     margin-bottom: 2rem;
     font-size: 2.5rem;
     @media (min-width: $breakpoint-large) {
+      font-size: 4rem;
+    }
+    @media (min-width: $breakpoint-large-plus) {
       font-size: 4.5rem;
       padding-left: 2.5vw;
       margin-bottom: 0;
