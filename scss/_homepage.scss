@@ -279,12 +279,18 @@ i.ring {
   @media (min-width: $breakpoint-medium-plus) {
     font-size: 2rem;
   }
+  @media (min-width: $breakpoint-large-plus) {
+    font-size: 3rem;
+  }
   svg {
     height: 1.5rem;
     width: auto;
     fill: #555;
     @media (min-width: $breakpoint-medium-plus) {
       height: 2rem;
+    }
+    @media (min-width: $breakpoint-medium-plus) {
+      height: 3rem;
     }
   }
   > * + * {

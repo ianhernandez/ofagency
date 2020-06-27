@@ -909,6 +909,12 @@ i.ring {
 	}
 }
 
+@media (min-width: 1400px) {
+	.social {
+		font-size: 3rem;
+	}
+}
+
 .social svg {
 	height: 1.5rem;
 	width: auto;
@@ -918,6 +924,12 @@ i.ring {
 @media (min-width: 1000px) {
 	.social svg {
 		height: 2rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.social svg {
+		height: 3rem;
 	}
 }
 
