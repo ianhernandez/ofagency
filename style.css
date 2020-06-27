@@ -656,7 +656,6 @@ article.type-page .entry-title, article.type-post .entry-title {
 	.secondary picture {
 		height: 100%;
 		width: 100%;
-		max-height: 100vh;
 		grid-row: span 2;
 		margin-bottom: 0;
 	}
