@@ -84,7 +84,22 @@ data & support to build their brand and increase their revenue.</p>
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+
+        the_content(
+          sprintf(
+            wp_kses(
+              /* translators: %s: Name of current post. Only visible to screen readers */
+              __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'ofagency' ),
+              array(
+                'span' => array(
+                  'class' => array(),
+                ),
+              )
+            ),
+            wp_kses_post( get_the_title() )
+          )
+        );
+    
 
 			endwhile;
 
