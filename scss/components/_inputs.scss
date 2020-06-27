@@ -30,10 +30,11 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button {
     outline: 0;
   }
 }
-div.wpforms-container-full .wpforms-form .wpforms-field-checkbox
+
+.wpforms-field-checkbox {
 	label {
-		padding-bottom: 1rem;
-		margin-bottom: 1rem;
-		border-bottom: 1px solid #ccc;
+		padding-bottom: 1rem !important;
+		margin-bottom: 1rem !important;
+		border-bottom: 1px solid #ccc !important;
 	}
 }
