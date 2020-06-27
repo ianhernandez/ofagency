@@ -608,6 +608,7 @@ div.wpforms-container-full .wpforms-form input[type=submit]:hover,
 div.wpforms-container-full .wpforms-form button[type=submit]:hover,
 div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
 	background-color: #ad4d4d;
+	border: 0 none;
 }
 
 div.wpforms-container-full .wpforms-form input[type=submit]:focus,
