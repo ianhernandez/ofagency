@@ -1,5 +1,5 @@
 .page div.wpforms-container-full .wpforms-form input[type=text] {
-	border-radius: .25rem;
+	border-radius: .25rem !important;
 	&:focus {
 		outline: 0 none;
 		box-shadow: 0 0 0 3px var(--brand);

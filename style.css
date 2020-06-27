@@ -569,6 +569,15 @@ article.type-page .entry-title, article.type-post .entry-title {
 	margin-left: 2rem;
 }
 
+.page div.wpforms-container-full .wpforms-form input[type=text] {
+	border-radius: .25rem !important;
+}
+
+.page div.wpforms-container-full .wpforms-form input[type=text]:focus {
+	outline: 0 none;
+	box-shadow: 0 0 0 3px var(--brand);
+}
+
 .intro {
 	padding: 2rem 1rem 3rem;
 }
@@ -657,6 +666,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 	.secondary picture {
 		height: 100%;
 		width: 100%;
+		max-height: 100vh;
 		grid-row: span 2;
 		margin-bottom: 0;
 	}
