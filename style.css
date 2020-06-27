@@ -611,7 +611,7 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
 	outline: 0;
 }
 
-.wpforms-field-checkbox label {
+.wpforms-field-checkbox > label {
 	padding-bottom: 1rem !important;
 	margin-bottom: 1rem !important;
 	border-bottom: 1px solid #ccc !important;
