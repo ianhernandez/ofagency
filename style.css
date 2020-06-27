@@ -567,13 +567,12 @@ article.type-page .entry-title, article.type-post .entry-title {
 
 @media (min-width: 800px) {
 	.intro {
-		padding: 2.5vw 2.5vw;
+		padding: 2.5vw 2.5vw 5vw;
 	}
 }
 
 @media (min-width: 1200px) {
 	.intro {
-		padding-bottom: 5vw;
 		display: grid;
 		grid-template-columns: 2fr 3fr;
 		gap: 5vw;

@@ -2,10 +2,9 @@
   padding: 2rem 1rem 3rem;
   
   @media (min-width: $breakpoint-medium) {
-    padding: 2.5vw 2.5vw;
+    padding: 2.5vw 2.5vw 5vw;
   }
   @media (min-width: $breakpoint-large) {
-    padding-bottom: 5vw;
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 5vw;
