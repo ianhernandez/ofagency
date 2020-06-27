@@ -573,6 +573,7 @@ article.type-page .entry-title, article.type-post .entry-title {
 
 @media (min-width: 1200px) {
 	.intro {
+		padding-bottom: 5vw;
 		display: grid;
 		grid-template-columns: 2fr 3fr;
 		gap: 5vw;
